@@ -6,11 +6,6 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Messa
 from bgremove import RemoveBackgroundAPI
 import logging
 
-logging.basicConfig(
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    level=logging.INFO
-)
-
 TOKEN='6462562581:AAGfBxogF8Sued8_b92PbvZeWvMduXgXd-Y'
 bg_token='r81DhiPxt8HaSJGFPv82vJQD'
 
